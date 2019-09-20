@@ -1,12 +1,8 @@
 
-.box {
-  display: flex;
-  justify-content: space-between;
-  padding: 70px;
+.square{
+padding: 30px;
 }
-.img{
-  padding: 70px;
-}
+
 header{
   background-color: blueviolet;
 height: 50vm;
