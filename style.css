@@ -1,0 +1,39 @@
+.row-a{
+  background-color: blueviolet;
+  height: 150px;
+  padding: 25px;
+  display: flex;
+ justify-content: space-between;
+  }
+.row-b{
+background-color:orchid;
+height: 250px;
+display: flex;
+flex-direction: row-reverse;
+}
+.row-c{
+  background-color: darkgoldenrod;
+  height: 250px;
+}
+.card-group{
+  display: flex;
+  flex-direction: space-between;
+}
+.hr{
+  height: 40px;
+  background-color:hotpink;
+  width: 50%;
+}
+.row-d{
+  background-color: darksalmon;
+  height: 250px;
+  flex-direction: row;
+}
+.row-e{
+background-color: darkorchid;
+height: 100px;
+}
+.row-f{
+  background-color: black;
+  height: 100px;
+}
