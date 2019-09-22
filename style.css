@@ -1,42 +1,59 @@
 .row-a{
-  background-color: blueviolet;
+  background-color: mediumorchid;
   height: 150px;
   padding: 25px;
   display: flex;
  justify-content: space-between;
   }
 .row-b{
-background-color:orchid;
+  background-color: mediumorchid;
 height: 250px;
 display: flex;
 flex-direction: row-reverse;
 }
 .row-c{
-  background-color: darkgoldenrod;
-  height: 250px;
+background-color: orchid;
+height: 250px;
 }
-.card-group{
-  display: flex;
-  flex-direction: space-between;
+#circle-1 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 50%
+  display: inline-block;
+}
+#circle-2 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+#circle-3 {
+      width: 100px;
+      height: 100px;
+      background: red;
+      border-radius: 50%;
+      display: inline-block;
 }
 .hr{
-  height: 40px;
-  background-color:hotpink;
+  height: 40px; 
   width: 50%;
 }
 .row-d{
-  background-color: darksalmon;
-  height: 250px;
-  flex-direction: row;
+background-color: grey;
+height: 250px;
+flex-direction: row;
 }
 .row-e{
-background-color: darkorchid;
+background-color: lightgrey;
 height: 100px;
 }
 .row-f{
   background-color: black;
   height: 100px;
 }
-.bg-gradient{
-enable-background: 50em;
-
+.cirle{
+  position: relative;
+  display: inline-block;
+}
