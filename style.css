@@ -1,19 +1,24 @@
+.container fluid {
+  width:100%;
+  height:100%;
+  background-image:url('http://clipartsign.com/upload/2016/02/02/fall-leaves-autumn-leaf-clip-art-wallpaper.jpg')
+}
 .row-a{
-  background-color: mediumorchid;
+  background-color: rgb(211, 198, 85);
   height: 250px;
   padding: 25px;
   display: flex;
 flex-direction: row-reverse;
- 
-  }
+}
+
 .row-b{
-  background-color: mediumorchid;
+  background-color: rgb(211, 188, 85);
 height: 250px;
 display: flex;
 flex-direction: row-reverse;
 }
 .row-c{
-background-color: orchid;
+background-color: rgb(255, 166, 0);
 height: 250px;
 align-items: center;
 display: flex;
@@ -33,7 +38,8 @@ display: flex;
 .row-d{
 background-color: grey;
 height: 250px;
-flex-direction: row;
+display: flex;
+align-items: center;
 }
 .row-e{
 background-color: lightgrey;
