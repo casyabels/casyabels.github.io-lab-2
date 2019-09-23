@@ -14,27 +14,16 @@ flex-direction: row-reverse;
 .row-c{
 background-color: orchid;
 height: 250px;
+align-items: center;
+display: flex;
+
 }
-#circle-1 {
-  width: 100px;
-  height: 100px;
-  background: red;
+.dot {
+  height: 150px;
+  width: 150px;
+  background-color:white;
   border-radius: 50%;
   display: inline-block;
-}
-#circle-2 {
-    width: 100px;
-    height: 100px;
-    background: red;
-    border-radius: 50%;
-    display: inline-block;
-}
-#circle-3 {
-      width: 100px;
-      height: 100px;
-      background: red;
-      border-radius: 50%;
-      display: inline-block;
 }
 .hr{
   height: 40px; 
@@ -53,7 +42,13 @@ height: 100px;
   background-color: black;
   height: 100px;
 }
-.cirle{
-  position: relative;
-  display: inline-block;
+.dotparent{
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.loremparent{
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
