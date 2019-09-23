@@ -1,9 +1,10 @@
 .row-a{
   background-color: mediumorchid;
-  height: 150px;
+  height: 250px;
   padding: 25px;
   display: flex;
- justify-content: space-between;
+flex-direction: row-reverse;
+ 
   }
 .row-b{
   background-color: mediumorchid;
